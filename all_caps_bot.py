@@ -14,7 +14,7 @@ class AllCapsBot:
         self.REALNAME = 'AllCapsBot' #CONFIG
         self.CHANNELS = ['#trashtalk'] #CONFIG
         self.IDENT_CHAR = '`' #CONFIG
-        self.illegal_nicks = ['ChanServ', self.NICK] #CONFIG
+        self.illegal_nicks = ['ChanServ', 'WTAbot', self.NICK] #CONFIG
         self.sender = None
         self.ircsock = None
         self.kick_message = 'PLEASE USE ALL CAPS. THANK YOU VERY MUCH.' #CONFIG
